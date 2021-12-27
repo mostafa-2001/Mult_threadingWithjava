@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.2" fx:controller="com.example.project_os.GUI_Controller">
+    <children>
+        <TextField fx:id="sizeField" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Button fx:id="generateButton" onAction="#onButtonClickGenerate" prefHeight="26.0" prefWidth="149.0" text="Generate" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+</GridPane>
